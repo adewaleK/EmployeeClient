@@ -1,0 +1,47 @@
+.employee-container{
+    display: flex;
+    margin: 15px auto;
+    width: 80%;
+    border-radius: 10px;
+    background-color: rgb(235, 250, 193);
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 5%;
+}
+
+.left{
+    flex: 1;
+}
+
+.left .name{
+    font-weight: bold;
+}
+
+.right{
+    right: 1;
+}
+
+.right button{
+    margin-right: 10px;
+    padding: 5px 10px;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.center{
+    flex: 1;
+}
+
+button.view{
+    background-color: aquamarine;
+}
+
+button.edit{
+    background-color: blueviolet;
+}
+
+button.delete{
+    background-color: red;
+}

@@ -1,0 +1,32 @@
+.nav-container{
+    display: flex;
+    padding: 0 5%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1ecec;
+}
+
+.left h3{
+    cursor: pointer;
+}
+
+.right{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    
+}
+
+.right p{
+    margin-right: 10px;
+   
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+a.active{
+    font-weight: bold;
+}
